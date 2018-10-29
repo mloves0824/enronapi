@@ -1,0 +1,220 @@
+2018/10/23 11:27:58 [alert] 31309#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:6
+2018/10/23 11:27:58 [emerg] 31309#0: unexpected "}" in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:8
+2018/10/23 11:28:17 [alert] 31352#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:6
+2018/10/23 11:28:17 [notice] 31352#0: using the "epoll" event method
+2018/10/23 11:28:17 [notice] 31352#0: openresty/1.13.6.1
+2018/10/23 11:28:17 [notice] 31352#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+2018/10/23 11:28:17 [notice] 31352#0: OS: Linux 3.10.0-514.26.2.el7.x86_64
+2018/10/23 11:28:17 [notice] 31352#0: getrlimit(RLIMIT_NOFILE): 100001:1000000
+2018/10/23 11:28:17 [notice] 31353#0: start worker processes
+2018/10/23 11:28:17 [notice] 31353#0: start worker process 31354
+2018/10/23 11:28:17 [notice] 31353#0: start worker process 31355
+2018/10/23 11:31:06 [alert] 31581#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:12
+2018/10/23 11:31:06 [error] 31581#0: init_by_lua error: init_by_lua:2: module 'enron_api' not found:
+	no field package.preload['enron_api']
+	no file '/usr/local/openresty/site/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.lua'
+	no file '/usr/local/openresty/lualib/enron_api.lua'
+	no file '/usr/local/openresty/lualib/enron_api/init.lua'
+	no file './enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.so'
+	no file '/usr/local/openresty/lualib/enron_api.so'
+	no file './enron_api.so'
+	no file '/usr/local/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2018/10/23 11:34:17 [alert] 31832#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:12
+2018/10/23 11:34:17 [error] 31832#0: init_by_lua error: init_by_lua:2: module 'enron_api' not found:
+	no field package.preload['enron_api']
+	no file '/usr/local/openresty/site/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.lua'
+	no file '/usr/local/openresty/lualib/enron_api.lua'
+	no file '/usr/local/openresty/lualib/enron_api/init.lua'
+	no file './enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.so'
+	no file '/usr/local/openresty/lualib/enron_api.so'
+	no file './enron_api.so'
+	no file '/usr/local/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2018/10/23 11:34:56 [alert] 31883#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:34:56 [error] 31883#0: init_by_lua error: init_by_lua:2: module 'enron_api' not found:
+	no field package.preload['enron_api']
+	no file './enron_api.lua'
+	no file './enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.lua'
+	no file '/usr/local/openresty/lualib/enron_api.lua'
+	no file '/usr/local/openresty/lualib/enron_api/init.lua'
+	no file './enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.so'
+	no file '/usr/local/openresty/lualib/enron_api.so'
+	no file './enron_api.so'
+	no file '/usr/local/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2018/10/23 11:40:28 [alert] 32307#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:40:28 [error] 32307#0: init_by_lua error: init_by_lua:2: module 'enron_api' not found:
+	no field package.preload['enron_api']
+	no file './enron_api.lua'
+	no file './enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.lua'
+	no file '/usr/local/openresty/lualib/enron_api.lua'
+	no file '/usr/local/openresty/lualib/enron_api/init.lua'
+	no file './enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.so'
+	no file '/usr/local/openresty/lualib/enron_api.so'
+	no file './enron_api.so'
+	no file '/usr/local/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2018/10/23 11:41:12 [alert] 32380#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:41:12 [error] 32380#0: init_by_lua error: init_by_lua:3: attempt to index global 'EnronApi' (a boolean value)
+stack traceback:
+	init_by_lua:3: in main chunk
+2018/10/23 11:42:38 [alert] 32478#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:42:38 [notice] 32478#0: signal process started
+2018/10/23 11:42:38 [notice] 31353#0: signal 1 (SIGHUP) received from 32478, reconfiguring
+2018/10/23 11:42:38 [notice] 31353#0: reconfiguring
+2018/10/23 11:42:38 [alert] 31353#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:42:38 [notice] 31353#0: using the "epoll" event method
+2018/10/23 11:42:38 [notice] 31353#0: start worker processes
+2018/10/23 11:42:38 [notice] 31353#0: start worker process 32479
+2018/10/23 11:42:38 [notice] 31353#0: start worker process 32480
+2018/10/23 11:42:38 [notice] 31354#0: gracefully shutting down
+2018/10/23 11:42:38 [notice] 31354#0: exiting
+2018/10/23 11:42:38 [notice] 31354#0: exit
+2018/10/23 11:42:38 [notice] 31355#0: gracefully shutting down
+2018/10/23 11:42:38 [notice] 31355#0: exiting
+2018/10/23 11:42:38 [notice] 31355#0: exit
+2018/10/23 11:42:38 [notice] 31353#0: signal 17 (SIGCHLD) received from 31354
+2018/10/23 11:42:38 [notice] 31353#0: worker process 31354 exited with code 0
+2018/10/23 11:42:38 [notice] 31353#0: worker process 31355 exited with code 0
+2018/10/23 11:42:38 [notice] 31353#0: signal 29 (SIGIO) received
+2018/10/23 11:43:04 [alert] 32529#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:43:04 [error] 32529#0: init_by_lua error: init_by_lua:2: module 'enron_api' not found:
+	no field package.preload['enron_api']
+	no file './enron_api.lua'
+	no file './init.lua'
+	no file './enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api.ljbc'
+	no file '/usr/local/openresty/lualib/enron_api/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/enron_api.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api/init.lua'
+	no file '/usr/local/openresty/lualib/enron_api.lua'
+	no file '/usr/local/openresty/lualib/enron_api/init.lua'
+	no file './enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/enron_api/init.lua'
+	no file '/usr/local/openresty/site/lualib/enron_api.so'
+	no file '/usr/local/openresty/lualib/enron_api.so'
+	no file './enron_api.so'
+	no file '/usr/local/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/enron_api.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua:2: in main chunk
+2018/10/23 11:43:20 [alert] 32582#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:43:20 [notice] 32582#0: signal process started
+2018/10/23 11:43:20 [notice] 31353#0: signal 1 (SIGHUP) received from 32582, reconfiguring
+2018/10/23 11:43:20 [notice] 31353#0: reconfiguring
+2018/10/23 11:43:20 [alert] 31353#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:13
+2018/10/23 11:43:20 [notice] 31353#0: using the "epoll" event method
+2018/10/23 11:43:20 [notice] 31353#0: start worker processes
+2018/10/23 11:43:20 [notice] 31353#0: start worker process 32583
+2018/10/23 11:43:20 [notice] 31353#0: start worker process 32584
+2018/10/23 11:43:21 [notice] 32479#0: gracefully shutting down
+2018/10/23 11:43:21 [notice] 32479#0: exiting
+2018/10/23 11:43:21 [notice] 32479#0: exit
+2018/10/23 11:43:21 [notice] 32480#0: gracefully shutting down
+2018/10/23 11:43:21 [notice] 32480#0: exiting
+2018/10/23 11:43:21 [notice] 32480#0: exit
+2018/10/23 11:43:21 [notice] 31353#0: signal 17 (SIGCHLD) received from 32479
+2018/10/23 11:43:21 [notice] 31353#0: worker process 32479 exited with code 0
+2018/10/23 11:43:21 [notice] 31353#0: worker process 32480 exited with code 0
+2018/10/23 11:43:21 [notice] 31353#0: signal 29 (SIGIO) received
+2018/10/26 09:18:59 [error] 32583#0: *10 "/home/messi/workspace/git/openresty/enronapi/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:7777"
+2018/10/27 00:06:10 [notice] 31353#0: signal 3 (SIGQUIT) received from 21613, shutting down
+2018/10/27 00:06:10 [notice] 32583#0: gracefully shutting down
+2018/10/27 00:06:10 [notice] 32583#0: exiting
+2018/10/27 00:06:10 [notice] 32584#0: gracefully shutting down
+2018/10/27 00:06:10 [notice] 32584#0: exiting
+2018/10/27 00:06:10 [notice] 32584#0: exit
+2018/10/27 00:06:10 [notice] 31353#0: signal 17 (SIGCHLD) received from 32584
+2018/10/27 00:06:10 [notice] 31353#0: worker process 32584 exited with code 0
+2018/10/27 00:06:10 [notice] 31353#0: signal 29 (SIGIO) received
+2018/10/27 00:06:10 [notice] 32583#0: exit
+2018/10/27 00:06:10 [notice] 31353#0: signal 17 (SIGCHLD) received from 32583
+2018/10/27 00:06:10 [notice] 31353#0: worker process 32583 exited with code 0
+2018/10/27 00:06:10 [notice] 31353#0: exit
+2018/10/27 00:06:42 [alert] 22658#0: lua_code_cache is off; this will hurt performance in /home/messi/workspace/git/openresty/enronapi/./nginx-enronapi.conf:17
+2018/10/27 00:06:42 [notice] 22658#0: using the "epoll" event method
+2018/10/27 00:06:42 [notice] 22658#0: openresty/1.13.6.1
+2018/10/27 00:06:42 [notice] 22658#0: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-16) (GCC) 
+2018/10/27 00:06:42 [notice] 22658#0: OS: Linux 3.10.0-514.26.2.el7.x86_64
+2018/10/27 00:06:42 [notice] 22658#0: getrlimit(RLIMIT_NOFILE): 100001:1000000
+2018/10/27 00:06:42 [notice] 22659#0: start worker processes
+2018/10/27 00:06:42 [notice] 22659#0: start worker process 22660
+2018/10/27 00:06:42 [notice] 22659#0: start worker process 22661
+2018/10/27 00:06:42 [error] 22660#0: init_worker_by_lua error: init_worker_by_lua:2: attempt to call field 'init_work' (a nil value)
+stack traceback:
+	init_worker_by_lua:2: in main chunk
+2018/10/27 00:06:42 [error] 22661#0: init_worker_by_lua error: init_worker_by_lua:2: attempt to call field 'init_work' (a nil value)
+stack traceback:
+	init_worker_by_lua:2: in main chunk
+2018/10/27 00:06:54 [error] 22661#0: *3 "/home/messi/workspace/git/openresty/enronapi/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:7777"
